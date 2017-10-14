@@ -1,0 +1,32 @@
+{
+  "name": "joi-error-formatter",
+  "version": "0.5.0",
+  "description": "Display multiple Joi Errors in one line",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --quiet .",
+    "lint-auto-fix": "./node_modules/.bin/eslint --fix ."
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivesh2/joi-error-formatter.git"
+  },
+  "keywords": [
+    "joi",
+    "error",
+    "parse",
+    "multiline"
+  ],
+  "author": "Nivesh Singh (nivesh2@gmail.com) <http://niveshsingh.com/>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nivesh2/joi-error-formatter/issues"
+  },
+  "homepage": "https://github.com/nivesh2/joi-error-formatter#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
