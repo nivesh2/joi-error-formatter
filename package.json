@@ -1,6 +1,6 @@
 {
   "name": "joi-error-formatter",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Display multiple Joi Errors in one line",
   "main": "index.js",
   "scripts": {

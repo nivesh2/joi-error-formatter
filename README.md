@@ -20,13 +20,17 @@ Require it in your entry file:
 ```javascript
 const joiErrorFormatter = require('joi-error-formatter')
 
-const {error, value} = Joi.validate({ a: 'a string',b:123 }, {a: Joi.number(),b:Joi.date()},{ abortEarly: false })
+const {error, value} = Joi.validate({ a: 'a string',b:'helloWorld' }, {a: Joi.number(),b:Joi.date()},{ abortEarly: false })
 let message = ''
 if(error){
     // message contains all the errors
     message = joiErrorFormatter(error)
 }
 console.log(message)
+
+/* output:
+"a" must be a number,"b" must be a number of milliseconds or valid date string
+*/
 ```
 
 That's it.
